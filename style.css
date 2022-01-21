@@ -287,7 +287,7 @@ footer{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    text-transform: none;
+    text-decoration: none;
     margin: 0 0.3rem;
     transition: all 0.5s ease;
 }
@@ -349,5 +349,7 @@ footer{
     }
 }
 @media screen and (min-width:1200px) {
-    
+    .design-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
